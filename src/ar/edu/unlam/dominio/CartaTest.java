@@ -19,7 +19,8 @@ public class CartaTest {
 	public void crearCarta() {
 		carta carta = new carta();
 		int saludRequerida = 100;
-		int danio = carta.danioACarta(0);
+		int danio = carta.danioACarta(10);
+		carta.curarse();
 		int saludDeLaCarta = carta.getsaludDeCarta();
 		assertEquals(saludRequerida, saludDeLaCarta);
 	}
