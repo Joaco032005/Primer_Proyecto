@@ -21,4 +21,7 @@ public void curarse() {
 		salud+=this.pocionDeSalud;
 	}
 }
+public void ataqueFuerte() {
+    this.salud = 0;
+}
 }

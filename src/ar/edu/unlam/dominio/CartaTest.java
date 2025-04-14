@@ -22,6 +22,7 @@ public class CartaTest {
 		int danio = carta.danioACarta(10);
 		carta.curarse();
 		int saludDeLaCarta = carta.getsaludDeCarta();
+		carta.ataqueFuerte();
 		assertEquals(saludRequerida, saludDeLaCarta);
 	}
 }
